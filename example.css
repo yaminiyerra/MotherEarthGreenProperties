@@ -247,6 +247,12 @@ i {
     .footer-visinary img {
         padding: 0;
     }
+      .block-3 {
+        height: 400px;
+        width: 100%;
+        display: inline-block;
+        margin: 16px;
+    }
 }
 
 .founders {
