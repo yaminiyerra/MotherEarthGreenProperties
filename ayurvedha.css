@@ -1,0 +1,113 @@
+body {
+    text-align: center;
+    background-color: #fff;
+}
+
+.thirdimg h3 {
+    margin: 16px;
+    font-size: 22px;
+    color: rgb(30, 66, 46);
+}
+
+p:not(:first-child) {
+    font-size: 18px;
+    color: rgb(57, 112, 71);
+    margin-bottom: 20px;
+    padding: 26px;
+}
+
+.block {
+    background-color: azure;
+}
+
+.container {
+    padding-top: 16px;
+}
+
+.imgbrf {
+    width: 70%;
+    height: 200px
+}
+
+.brfheading {
+    font-size: 24px;
+}
+
+.brfdes {
+    font-size: 16px;
+}
+
+.row {
+    margin: 16px;
+}
+
+.col-md-6 {
+    margin-bottom: 16px;
+}
+
+.end img {
+    width: 300px;
+}
+
+.contact-info {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://previews.123rf.com/images/suvarnabhumi/suvarnabhumi1601/suvarnabhumi160100118/50972801-wooden-huts-at-nature-in-kanchanaburi-thailand-june-8-2015.jpg");
+}
+
+.contact-info h4 {
+    font-size: 600;
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact-info span {
+    font-weight: 300;
+    font-size: 18px;
+}
+
+.contact-info p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+i {
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-right: 4px;
+}
+
+.social-media span {
+    color: white;
+}
+
+.last-text {
+    font-family: 'Dancing Script', cursive;
+    font-family: 'Moon Dance', cursive;
+    font-family: 'Pacifico', cursive;
+    font-family: 'Satisfy', cursive;
+}
+
+h3.last-text {
+    font-size: 40px;
+}
+
+p.last-text {
+    font-size: 28px;
+}
+
+p.cp-text {
+    color: rgba(219, 213, 213, 0.7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+    font-size: 12px;
+}
+
+@media screen and (max-width:750px) {
+    .doctor-img {
+        width: 100%
+    }
+}

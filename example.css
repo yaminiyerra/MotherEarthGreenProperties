@@ -1,0 +1,329 @@
+body,
+html {
+    text-align: center;
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/*navigation bar*/
+
+ul {
+    display: flex;
+}
+
+nav a {
+    display: flex;
+}
+
+nav a:hover {
+    color: #20422a;
+}
+
+.btnclp {
+    border: none;
+    font-size: 16px;
+}
+
+.carousel-inner img {
+    height: 500px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://upload.wikimedia.org/wikipedia/commons/4/4d/Banaura_LogHut.jpg");
+    width: 100%;
+    height: 75%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.main-text {
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+}
+
+.main-text button {
+    border: none;
+    outline: 0;
+    display: inline-block;
+    padding: 10px 25px;
+    color: black;
+    background-color: #ddd;
+    text-align: center;
+    cursor: pointer;
+}
+
+.main-text button:hover {
+    background-color: #555;
+    color: white;
+}
+
+.block-3 button {
+    font-size: 12px;
+    background-color: #d1f1b2;
+    padding: 10px;
+    border-radius: 10px;
+    color: #3c5542;
+    border: none;
+}
+
+.block-3 button:hover {
+    background-color: #2e4934;
+    color: white;
+}
+
+.block-4 {
+    background-color: rgb(245, 245, 245);
+    padding: 32px;
+}
+
+.block-4 h4 {
+    line-height: 36px;
+}
+
+.block-4 p {
+    line-height: 32px;
+}
+
+.time-sharing {
+    background-color: #ffffff;
+    text-align: center;
+    padding: 32px;
+}
+
+.time-sharing img {
+    width: 612px;
+    height: 408px;
+}
+
+.timesharing-text h4 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 35px;
+    padding-left: 7px;
+    color: #20422a;
+    text-align: center;
+}
+
+.timesharing-text span {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 25px;
+    text-align: center;
+}
+
+.timesharing-text p {
+    line-height: 25px;
+    padding-left: 7px;
+    color: #20422a;
+    opacity: 50%;
+    text-align: center;
+    line-height: 32px;
+}
+
+.timesharing-text p {
+    padding-bottom: 16px;
+}
+
+.visionary-text {
+    text-align: center;
+}
+
+.visionary-text h4 {
+    font-size: 32px;
+    font-weight: 500;
+}
+
+.visionary-text span {
+    font-weight: 700;
+}
+
+.visionary-text p {
+    font-size: 16px;
+    padding-left: 20px;
+    padding-right: 20px;
+    line-height: 30px;
+}
+
+.footer-visinary {
+    display: flex;
+    padding: 16px;
+}
+
+.footer-visinary img {
+    flex: 1;
+    padding-left: 40px;
+}
+
+.footer-visinary .footer-visionary-text {
+    flex: 1;
+}
+
+.footer-visionary-text h4 {
+    margin: 16px;
+    color: #3c5542;
+    text-align: center;
+}
+
+.footer-visionary-text p {
+    margin: 16px;
+    color: #3c5542;
+    text-align: center;
+    line-height: 40px;
+}
+
+.contact-info {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("https://previews.123rf.com/images/suvarnabhumi/suvarnabhumi1601/suvarnabhumi160100118/50972801-wooden-huts-at-nature-in-kanchanaburi-thailand-june-8-2015.jpg");
+}
+
+.contact-info h4 {
+    font-size: 600;
+    padding: 20px;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+}
+
+.contact-info span {
+    font-weight: 300;
+    font-size: 22px;
+}
+
+.contact-info p {
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+i {
+    align-items: center;
+    font-size: 32px;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    padding-right: 4px;
+}
+
+.social-media span {
+    color: white;
+}
+
+@media screen and (max-width:800px) {
+    .visionary-text h4 {
+        font-size: 20px;
+    }
+    .visionary-text p {
+        font-size: 14px;
+        padding: 4px;
+    }
+    .block-3 button {
+        font-size: 12px;
+    }
+    .footer-visinary img {
+        width: 100%;
+    }
+    .time-sharing,
+    .footer-visinary {
+        display: block;
+    }
+    .time-sharing img,
+    .block-4 img {
+        width: 100%;
+    }
+    .footer-visinary img {
+        padding: 0;
+    }
+}
+
+.founders {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 20px;
+    padding-right: 15px;
+    background-color: rgb(147, 182, 147);
+    width: 250px;
+    height: 400px;
+    margin-left: 20px;
+    border-top-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+
+.founders h3 {
+    color: white;
+    font-size: 20px;
+}
+
+.founders p {
+    color: rgb(189, 224, 191);
+}
+
+.img-fonder {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: white;
+}
+
+.block-3 {
+    height: 400px;
+    width: 400px;
+    display: inline-block;
+    margin: 30px;
+}
+
+.section3 {
+    background-color: #f7eee2;
+}
+
+.heading3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3px;
+    font-weight: 600;
+    margin-bottom: 16px;
+}
+
+.des-3 {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: #8b8b99;
+    letter-spacing: 0.5px;
+    padding-bottom: 50px;
+    ;
+}
+
+.block-3 img {
+    text-align: centre;
+    color: white;
+    background-color: #e3b375;
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+}
+
+.cp-text {
+    color: rgba(200, 195, 195, 0.7);
+    text-shadow: 0 1px rgba(255, 255, 255, 0.1);
+}

@@ -1,0 +1,134 @@
+nav {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    display: flex;
+    align-items: center;
+}
+
+.left p {
+    font-size: 26px;
+}
+
+.right {
+    display: flex;
+    align-items: center;
+}
+
+.right a {
+    display: block;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+
+.right .icon {
+    display: none;
+}
+
+.dropdown {
+    float: right;
+    overflow: hidden;
+}
+
+.dropdown .dropbtn {
+    font-size: 17px;
+    border: none;
+    outline: none;
+    color: rgb(0, 0, 0);
+    padding: 14px 16px;
+    background-color: inherit;
+    font-family: inherit;
+    margin: 0;
+}
+
+.dropdown-content {
+    display: none;
+    background-color: none;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 0;
+}
+
+.dropdown-content a {
+    float: none;
+    color: rgb(4, 4, 4);
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+}
+
+.right a:hover,
+.dropdown:hover .dropbtn {
+    background-color: #ffffff;
+    color: rgb(194, 194, 194);
+}
+
+.dropdown-content a:hover {
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+@media screen and (max-width: 850px) {
+    .right a,
+    .dropdown .dropbtn {
+        display: none;
+    }
+    .right a.icon {
+        float: right;
+        display: block;
+        outline: none;
+    }
+    .left p {
+        font-size: 20px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .left {
+        display: block;
+    }
+    .right {
+        position: relative;
+        display: block;
+        float: left;
+    }
+    .right.responsive .icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+    .right.responsive a {
+        display: block;
+        text-align: left;
+    }
+    .right.responsive .dropdown {
+        float: none;
+    }
+    .right.responsive .dropdown-content {
+        position: relative;
+    }
+    .right.responsive .dropdown .dropbtn {
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+.whatsapp-img {
+    position: fixed;
+    bottom: 32px;
+    right: 16px;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+}
